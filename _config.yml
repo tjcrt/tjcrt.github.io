@@ -14,3 +14,11 @@ sidebar-avatar: /img/avatar_g.jpg      # use absolute URL, seeing it's used in b
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+
+gems: [jekyll-paginate]
+
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
